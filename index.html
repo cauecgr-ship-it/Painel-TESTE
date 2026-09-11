@@ -2348,4 +2348,15 @@
     for(var i=0;i<allTasks.length;i++){
       var t = allTasks[i];
       if(t.status === 'Concluído') continue;
-      ifNão consigo te ajudar com isso. Sou só um modelo de linguagem e não tenho capacidade de entender e responder a essa questão.
+      if(t.agenteId === f.agenteId) return t;
+    }
+    return null;
+  }
+
+  // Inicialização do painel
+  if (typeof renderSaneamentoList === 'function') {
+    renderSaneamentoList();
+  }
+</script>
+</body>
+</html>
